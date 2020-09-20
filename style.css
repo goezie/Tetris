@@ -1,0 +1,38 @@
+@font-face {
+  font-family: RetroFont;
+  src: url('PressStart2P.ttf');
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	font-family: RetroFont;
+}
+#tetris {
+	display: : relative;
+	height: 400px;
+	width: 420px;
+	padding:10px;
+	border: 1px solid black;
+	text-align: center;
+}
+
+#tetrisCanvas {
+	width: 200px;
+	height: 400px;
+	box-sizing: border-box;
+	border: 1px solid black;
+	margin-right: 10px;
+	float: left;
+}
+
+#nextBlock {
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+}
+#gameOver 
+{
+	display: none;
+}
+
